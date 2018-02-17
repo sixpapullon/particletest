@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+  <div style="width:25%;height:audio;" id="floor_div">
+  <img src="floor_2.png" style="width: 100%;height: auto;" id="floor_img"/>	<canvas id="myCanvas">
+  </canvas></div>
+  <script>
+  var c=document.getElementById("myCanvas");
+  var ctx=c.getContext("2d");
+  var img=document.getElementById("floor_img");
+  	//var floor_div=document.getElementById("floor_div");	img.onload=function(){		console.log(img.width);		console.log(img.height);		c.width=img.width;		c.height=img.height;		ctx.drawImage(img,0,0,img.width,img.height);		img.style.display="none";	}</script></body></html>
